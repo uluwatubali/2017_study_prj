@@ -4,7 +4,9 @@ Self study on 2017
 
 # Security
 [Coursera] (https://www.coursera.org/)
+
 [Crypto I](https://www.coursera.org/learn/crypto/home/welcome)
+
 [CyberSecurity](https://www.coursera.org/specializations/cyber-security)
 
 # Language
