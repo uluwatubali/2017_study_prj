@@ -5,24 +5,24 @@ Self study on 2017
 
 # Data Structure
 Operations knowing and API implementation
-## Array
-## Vector, C++
-## Link-list
-## Stack
-## Queue
-## Hash Table
-## Trees
+### Array
+### Vector, C++
+### Link-list
+### Stack
+### Queue
+### Hash Table
+### Trees
 BFS/DFS
-## Binary Search Tree
-## Heap
+### Binary Search Tree
+### Heap
 # Algorithm
 [Complexity](http://bigocheatsheet.com)
-## Sorting
+### Sorting
 Merge Sort
 Insert Sort
 Merge Sort
-## Recursion
-## Graph
-## NP, NP-Complete and Approximation Algorithms
+### Recursion
+### Graph
+### NP, NP-Complete and Approximation Algorithms
 
 # System Design
