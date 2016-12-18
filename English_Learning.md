@@ -1,16 +1,25 @@
 # Actions
+Listsen when Driving(Listen materials)
+At least 30 min on one of topics
 
-1.Reading
+### Tool
+Anki
+Note
+
+# Topic
+### Reading
   Book: Barbaria day
   Techical news
   Forum discussion
-2. Listening
+  
+### Listening
   Youtube: Lecture, Coursera
   Youtube: Vox, Google Talks, TED
   TV drama
-3. Speaking
+### Speaking
   Daily read
   Conversation
-
-Others:
+  [Coursera](https://www.coursera.org/learn/business-english-meetings/home/welcome)
+  
+### Others:
   Memorization: Vocabulary, Sentence Structure
