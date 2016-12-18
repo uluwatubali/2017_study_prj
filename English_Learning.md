@@ -4,13 +4,13 @@ Listsen when Driving(Listen materials)
 At least 30 min on one of topics
 
 ### Tool
-Anki
+[Anki](https://ankiweb.net/decks/)
 
 Notebook
 
 # Topic
 ### Reading
-  Book: Barbaria day
+  Book: Barbarian's day
   
   Techical news
   
