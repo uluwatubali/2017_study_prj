@@ -1,10 +1,10 @@
 
 Basic operation
-0. Initial
-1. Insert x after t
-2. remove x after t
-3. traverse list
-4. IsEmpty
+  0. Initial
+  1. Insert x after t
+  2. remove x after t
+  3. traverse list
+  4. IsEmpty
 
 
 List Type
