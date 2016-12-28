@@ -12,9 +12,9 @@ a. circular
   0.  head->next = head;
   1.  x->next = t->next; t->next = x;
   2.  t->next = x->next
-  3.  t= head;
-      do{...; t=head->next;}while(t!=head);
+  3.  t= head; do{...; t=head->next;}while(t!=head);
   4.  (head->next == head)
+ 
 b. Head pointer, null tail
   0.  head = new node();
   1.  x->next = t->next; t->next = x;
