@@ -1,5 +1,6 @@
 
 * Selection Sort
+
 ** Worst: N^2/2
 ** Average: N^2/2
 ** Good at: Least overhead of exchanging item:
