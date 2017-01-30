@@ -1,10 +1,9 @@
 
 * Selection Sort
-
-** Worst: N^2/2
-** Average: N^2/2
-** Good at: Least overhead of exchanging item:
-** Insensitive to input
+1. Worst: N^2/2
+2. Average: N^2/2
+3. Good at: Least overhead of exchanging item:
+4. Insensitive to input
 
 * Insertion Sort
 Optimization: Sentinel Key p.276
