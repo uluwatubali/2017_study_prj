@@ -1,14 +1,10 @@
 # Hash
 
-It's time-space trade off.
-
-Constant insert and search.
-
-No effiecient sort or select
-
-Hash function usually falls in inner loop and dominates running time.
-
-Error usually comes from type converting.
+* Time-space trade off.
+* Good at insert, search, remove.
+* Not for sort, select
+* Hash function usually falls in inner loop and dominates running time.
+* Error usually comes from type converting.
 
 ## Hash Function
 
@@ -56,3 +52,18 @@ int hash(char* v, int M){
 }
 
 ```
+
+Choose hash table size to be Prime for modular hashing
+We can look up a prime number from table or Mersenne primes.
+
+# Seperate Chaining
+Hash table with size M and N items and using seperated lists
+1. Probablity of each list with item# < N/M is close to 1
+2. Birthday Problem: Insert X items before getting collision. X = (pi * M/2)^1/2 = 1.25 M^(1/2)
+3. Coupon Collector Problem: Inser X items before each list has at least 1 item. X = MH(M)
+
+Usually use unordered-list
+1. Quick insert and easy implementation
+2. Stack behavior for easily removing most recently inserted
+
+Provide sorted items by having ordered-list and merge list with N * lg(M)
