@@ -67,3 +67,11 @@ Usually use unordered-list
 2. Stack behavior for easily removing most recently inserted
 
 Provide sorted items by having ordered-list and merge list with N * lg(M)
+
+# Linear Probing
+- Total Items = N, Table size = M, M > N
+- When there is Hash collision, search right next position.
+- Need extra table size. Save extra links.
+- Operation Delete: Need to avoid loophold left by removed one.
+  - Solution 1. re-Hash the following items
+  - Solution 2. Put nullItem with reused flag
