@@ -1,8 +1,11 @@
 # Mergesort
 Idea: Merge 2 ordered list, A[] and B[] to C[]
+1. Top-down:divide-and-conquer
+2. Bottom-up: combined and 
+3. Time = Nln(N)
+4. Sequential access: it would be efficient on some architecture
+5. Insensitive to input (Quicksort is slow with ordered list)
 
-Sequential access: it would be efficient on some architecture
-Insensitive to input (Quicksort is slow with ordered list)
 
 ```
 void mergeAB(Item A[], Item B[], Item c[], M, N){
