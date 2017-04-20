@@ -10,6 +10,7 @@ Optimization: Sentinel Key p.276
 Best:N  
 Average:N^2/4  
 Worst:N^2/2  
+Good at: Partial ordered.(Sensitive to input)
 
 ### Bouble Sort  
 Optimization: Testing if No exchanges in one pass.  
