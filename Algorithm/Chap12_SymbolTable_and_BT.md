@@ -31,19 +31,21 @@ struct Node{
 Node.Value()>= Node.left.Value
 Node.Value()<= Node.right.Value
 
-** Rotation **
+**Rotation**
 Some operations get benefit from rotation:
 1. Increase search hit by keeping new node as Root
 2. Keep trees from unbalanced
 3. Remove, Join
 
-** Selection **
+**Selection**
+
 Need an extra space for 'count' member. Count = # of nodes of its subtree
 Partition: put the k_th smallest node at the root
 Partition = Select + Rotate(p536)
 
 
-** Remove **: High cost in tree structure 
+**Remove**: High cost in tree structure 
+
 Lazy way: Marked removed node as unused node. We still have to consider time and space.
 
 Steps of remove node X
@@ -53,13 +55,11 @@ Steps of remove node X
 * 2.2 Y->left = X->left: After 2.1, Y is root of subtree and has no left link. 
 3. delete X
 
-** Join **
+**Join**
 O(n): Linear 
 
 Steps of Join A and B BST
-
 1. Put root of A, Node_A, into B. And let node_A become root of B
-
 2. Join 2 left(2 right) subtrees of A & B(Root is NodeA now)
 
 Join left subtree of node_A in subtree B and left subtree of Node_A in tree A.
