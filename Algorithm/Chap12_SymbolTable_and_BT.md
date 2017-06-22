@@ -22,11 +22,12 @@ m = (r-l)*(v-a[l].key)/(a[r].key-a[l].key);
 - Could possibly be unbalanced and lead to slow perfromance.
 
 - Insert == Search + Add node
-
+'''
 struct Node{
   int value;
   struct Node* left, *right;
 }
+'''
 Node.Value()>= Node.left.Value
 Node.Value()<= Node.right.Value
 
@@ -47,13 +48,9 @@ Lazy way: Marked removed node as unused node. We still have to consider time and
 
 Steps of remove node X
 1. Search X
-
 2. Combine 2 subtrees of X
-
-2.1 Partition(X->r, 0): put the smallest node Y of right subtree at the root
-
-2.2 Y->left = X->left: After 2.1, Y is root of subtree and has no left link. 
-
+* 2.1 Partition(X->r, 0): put the smallest node Y of right subtree at the root
+* 2.2 Y->left = X->left: After 2.1, Y is root of subtree and has no left link. 
 3. delete X
 
 - Join
