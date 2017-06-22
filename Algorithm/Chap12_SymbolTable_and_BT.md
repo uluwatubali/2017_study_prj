@@ -22,28 +22,28 @@ m = (r-l)*(v-a[l].key)/(a[r].key-a[l].key);
 - Could possibly be unbalanced and lead to slow perfromance.
 
 - Insert == Search + Add node
-'''
+```
 struct Node{
   int value;
   struct Node* left, *right;
 }
-'''
+```
 Node.Value()>= Node.left.Value
 Node.Value()<= Node.right.Value
 
-- Rotation
+** Rotation **
 Some operations get benefit from rotation:
 1. Increase search hit by keeping new node as Root
 2. Keep trees from unbalanced
 3. Remove, Join
 
-- Selection
+** Selection **
 Need an extra space for 'count' member. Count = # of nodes of its subtree
 Partition: put the k_th smallest node at the root
 Partition = Select + Rotate(p536)
 
 
-- Remove: High cost in tree structure
+** Remove **: High cost in tree structure 
 Lazy way: Marked removed node as unused node. We still have to consider time and space.
 
 Steps of remove node X
@@ -53,7 +53,7 @@ Steps of remove node X
 * 2.2 Y->left = X->left: After 2.1, Y is root of subtree and has no left link. 
 3. delete X
 
-- Join
+** Join **
 O(n): Linear 
 
 Steps of Join A and B BST
