@@ -47,16 +47,23 @@ Lazy way: Marked removed node as unused node. We still have to consider time and
 
 Steps of remove node X
 1. Search X
+
 2. Combine 2 subtrees of X
+
 2.1 Partition(X->r, 0): put the smallest node Y of right subtree at the root
+
 2.2 Y->left = X->left: After 2.1, Y is root of subtree and has no left link. 
+
 3. delete X
 
 - Join
 O(n): Linear 
 
 Steps of Join A and B BST
+
 1. Put root of A, Node_A, into B. And let node_A become root of B
+
 2. Join 2 left(2 right) subtrees of A & B(Root is NodeA now)
+
 Join left subtree of node_A in subtree B and left subtree of Node_A in tree A.
 Join right subtree of node_A in subtree B and right subtree of Node_A in tree A.
