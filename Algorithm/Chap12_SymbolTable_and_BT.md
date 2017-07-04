@@ -41,7 +41,8 @@ Some operations get benefit from rotation:
 
 Need an extra space for 'count' member. Count = # of nodes of its subtree
 Partition: put the k_th smallest node at the root
-Partition = Select + Rotate(p536)
+
+***Partition = Select + Rotate(p536)***
 
 
 **Remove**: High cost in tree structure 
