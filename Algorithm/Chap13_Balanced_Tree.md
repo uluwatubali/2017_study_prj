@@ -1,5 +1,9 @@
-1. Splay Tree
-Cached tree: Keep nodes we encountered on the path closer to the root.
+1. Splay Tree(Cached tree) 
+Bring node we find to the root and keep nodes we encountered on the path closer to the root.
+Create good balance while searching the tree.
+
+Zig-Zig: Rotate from Top
+Zig-Zag: Rotate from Bottom
 
 2. 2-3-4 Tree
 Keep tree balanced and it's easy to understand.But hard to implement
