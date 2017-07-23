@@ -32,7 +32,7 @@ int hash(key v, int M){
 ```
 Hash function for strings
 ```
-// #1 
+// #1 Horner's method
 int hash(char *v, int M){
     int a = 127; h=0;
     for(; *v!=0; v++){
