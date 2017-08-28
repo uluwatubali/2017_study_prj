@@ -19,6 +19,8 @@ Best:N
 Average:N^2/4  
 Worst:N^2/2  
 Good at: Partial ordered.(Sensitive to input)
+Complexity comes from cmp and swap
+Improve comparison by using binary search.
 
 ### Bouble Sort  
 
