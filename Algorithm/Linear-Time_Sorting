@@ -1,0 +1,9 @@
+
+|Decision tree | Algorithm     |
+|------------- | ------------------------|
+|Internal node | Binary Decision ( ex: Comparison)|
+|Leafs         | Answers|
+|Root to  leaf | Algorithm Execution|
+|Path lenght   | Running time|
+|Height        | Worst case of running time|
+
