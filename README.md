@@ -1,3 +1,15 @@
+# 2018_study_prj
+Self study on 2017
+# Leetcode
+Daily 
+
+# ML/AI
+Online Course
+Project
+
+# Hands on Project
+ML/AI
+
 # 2017_study_prj
 Self study on 2017
 [Reference](https://github.com/jwasham/google-interview-university)
