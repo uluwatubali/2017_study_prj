@@ -1,0 +1,16 @@
+
+
+Given a list of numbers and a Target_Number. Find out if there is any combination from these number to get sum == Target_Number;
+(#416)
+
+dp[j] = dp[j - current_pick_number];
+fill up all dps:
+
+
+for(int i=0;i <nums.size()+1;i++)
+  new_dp[j] = last_dp[j-nums[i-1]];
+dp := dp | new_dp
+
+
+
+dp[i][j] = dp[i-1][j] || dp[i-1][j-nums[i-1];
