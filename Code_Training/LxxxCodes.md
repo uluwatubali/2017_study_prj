@@ -1,7 +1,11 @@
 
 #365. Jug problem 
 ```
-Find GCD
+Two jugs with size x and y. Estamation size of jug z.
+
+Let d = GCD(x,y), then there's alway nonzero integers a and b, such that ax + by = d. Bézout's identity (also called Bézout's lemma)
+If z is multiple of GCD(x,y), then the answer is yes.
+
 
 int findGCD(int x, int y){
         while( y != 0){
@@ -34,6 +38,6 @@ for(i:0 to n){
 ```
 Boyer-Moore Majority Vote algorithm
 https://gregable.com/2013/10/majority-vote-algorithm-find-majority.html
-
-It can apply to n/2, n/3, n/4...
+[3,3,3,4,1,2,0]
+It can apply to 2, 3, 4 majority number (n/2, n/3, n/4...)
 ```
