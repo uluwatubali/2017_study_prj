@@ -38,6 +38,6 @@ for(i:0 to n){
 ```
 Boyer-Moore Majority Vote algorithm
 https://gregable.com/2013/10/majority-vote-algorithm-find-majority.html
-[3,3,3,4,1,2,0]
+Try [3,3,3,4,1,2,0]
 It can apply to 2, 3, 4 majority number (n/2, n/3, n/4...)
 ```
