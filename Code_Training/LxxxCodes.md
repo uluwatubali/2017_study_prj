@@ -34,4 +34,6 @@ for(i:0 to n){
 ```
 Boyer-Moore Majority Vote algorithm
 https://gregable.com/2013/10/majority-vote-algorithm-find-majority.html
+
+It can apply to n/2, n/3, n/4...
 ```
