@@ -41,3 +41,18 @@ https://gregable.com/2013/10/majority-vote-algorithm-find-majority.html
 Try [3,3,3,4,1,2,0]
 It can apply to 2, 3, 4 majority number (n/2, n/3, n/4...)
 ```
+
+#304. Range Sum Query 2D - Immutable
+```
+O(nm) space, O(1)Time
+
+Step1. get sum matrix
+Step2. caclulate obj sum
++-----+-----+
+|  A  |  B  |
++-----+-----+
+|  C  |  D  |
++-----+-----+
+rect[D] = rect[A+B+C+D] - rect[A+C] - rect[A+B] + rec[A]
+
+```
