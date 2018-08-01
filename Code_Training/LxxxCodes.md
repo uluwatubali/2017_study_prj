@@ -56,3 +56,24 @@ Step2. caclulate obj sum
 rect[D] = rect[A+B+C+D] - rect[A+C] - rect[A+B] + rec[A]
 
 ```
+
+307. Range Sum Query - Mutable
+```
+
+
+Solution1:
+update in O(1): 
+  Using hash map to record updated number
+
+getSum in O(k), k = number of updated items
+  1. Calculate sum = sum[j] - sum[i-1].
+  2. iterator all updated items and caliborate sum. 
+
+Create Sum array in O(n)
+
+Solution 2: Best solution while the number of update and request are almost equivalent.
+Segment Tree: https://www.geeksforgeeks.org/segment-tree-set-1-sum-of-given-range/
+
+update, getSum, create data structure are all in O(log(n))
+
+```
