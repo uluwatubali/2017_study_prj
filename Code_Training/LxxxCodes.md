@@ -77,3 +77,13 @@ Segment Tree: https://www.geeksforgeeks.org/segment-tree-set-1-sum-of-given-rang
 update, getSum, create data structure are all in O(log(n))
 
 ```
+
+310. Minimum Height Trees
+```
+Root nodes are where eventually we meet at if we start walking from leaves.
+1. Remove leaves layer by layer
+2. Number of leaves is less than 2. Then we find the root.
+
+misc. c++ set, unordered_set usage: Easy to find item through the item itself as key value;
+
+```
