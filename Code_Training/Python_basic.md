@@ -29,3 +29,8 @@ else(max_num < next_num):
   max_num = next_num
 
 ```
+Dictionary, key-value map = Hash map
+Key must be constant object, value, string or tuple
+To get key-value:
+1. dict.get(key): Can use return value 'none' to verify if key is exist or not.
+2. dict[key]: Return KeyError if key is not exist.
