@@ -8,11 +8,11 @@ int BS_rec(vector<int> &nums, int l, int r, int key){
   if( nums[m] == key) return m;
   if(l==r) return -1;    
   if(nums[m]> key) return BS(nums, l, m-1, key);
-  else return BS(nums, m+1, l, key);
+  else return BS(nums, m+1, r, key);
   
 }
 ```
-Iterative:
+Iterative: Find key located in between what indexes
 ```
 int BS_It(vector<int> &nums, int bound_Left, int bound_Right, int key){
   int l, r;
