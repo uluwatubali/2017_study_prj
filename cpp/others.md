@@ -28,5 +28,5 @@ struct myStruct{
   int index;
   int value;
   myStruct(int i, int v):index(i), value(v){}
-}
+};
 ```
