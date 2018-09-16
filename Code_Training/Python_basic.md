@@ -18,8 +18,7 @@ False
 ```
 
 Usage of none.
-While wariable is not 0 nor null and we need to use it without error reference.
-
+While variable is not 0 nor null and we need to use it without error reference.
 ```
 max_num = none
 
@@ -29,8 +28,21 @@ else(max_num < next_num):
   max_num = next_num
 
 ```
+
 Dictionary, key-value map = Hash map
 Key must be constant object, value, string or tuple
 To get key-value:
 1. dict.get(key): Can use return value 'none' to verify if key is exist or not.
 2. dict[key]: Return KeyError if key is not exist.
+
+
+Priority Queue & Heap: heapq
+heappush(heap_list, (tuple)): heap by tuple
+```
+from heapq import *
+
+heap_list = []
+heappush(heap_list, (tuple))
+heap_head_tuple = heappop(heap_list)
+
+```
