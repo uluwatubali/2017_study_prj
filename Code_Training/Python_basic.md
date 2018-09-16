@@ -33,7 +33,8 @@ Dictionary, key-value map = Hash map
 Key must be constant object, value, string or tuple
 To get key-value:
 1. dict.get(key): Can use return value 'none' to verify if key is exist or not.
-2. dict[key]: Return KeyError if key is not exist.
+2. dict.get(key, val): if key is not in dict, return val
+3. dict[key]: Return KeyError if key is not exist.
 
 
 Priority Queue & Heap: heapq
