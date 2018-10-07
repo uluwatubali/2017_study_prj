@@ -47,3 +47,19 @@ heappush(heap_list, (tuple))
 heap_head_tuple = heappop(heap_list)
 
 ```
+
+Sorting with Comparator 
+```
+class CustomCompare(str):
+    def __lt__(x,y):
+        return x+y>y+x
+
+class Solution(object):
+    def largestNumber(self, nums):
+        """
+        : Given a list of non negative integers, arrange them such that they form the largest number.
+        """
+        nums = [str(x) for x in nums]
+        nums = sorted(nums,key=CustomCompare)
+        return ''.join(nums).lstrip('0') or '0'
+```
