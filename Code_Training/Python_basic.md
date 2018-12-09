@@ -4,8 +4,8 @@ $var in $list
 ```
 
 What's diferrence between == and is?
- ==: Comparison of content
- is: Comparison of object
+ ==: Comparison of content(some object could be overrided comparison operator)
+ is: Comparison of object(identity)
 ```
 list1=['abcd']
 list2=['abcd']
