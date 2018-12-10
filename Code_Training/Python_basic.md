@@ -1,3 +1,16 @@
+Useful link:
+```
+Libs:
+https://github.com/vinta/awesome-python
+https://github.com/geekan/one-python
+
+Patterns Training:
+https://github.com/faif/python-patterns
+
+https://github.com/taizilongxu/interview_python
+Books:
+https://pythonbooks.revolunet.com/
+```
 if item is in list:
 ```
 $var in $list
